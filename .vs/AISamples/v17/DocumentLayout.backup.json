@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\CODE\\AI\\Samples\\AISamples\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1B0ECD6-726B-4DB1-A937-FCE512C9AF86}|AISamples\\AISamples.csproj|c:\\code\\ai\\samples\\aisamples\\aisamples\\gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E1B0ECD6-726B-4DB1-A937-FCE512C9AF86}|AISamples\\AISamples.csproj|solutionrelative:aisamples\\gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1B0ECD6-726B-4DB1-A937-FCE512C9AF86}|AISamples\\AISamples.csproj|c:\\code\\ai\\samples\\aisamples\\aisamples\\aisamples.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E1B0ECD6-726B-4DB1-A937-FCE512C9AF86}|AISamples\\AISamples.csproj|solutionrelative:aisamples\\aisamples.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "gitignore",
+              "DocumentMoniker": "C:\\CODE\\AI\\Samples\\AISamples\\AISamples\\gitignore",
+              "RelativeDocumentMoniker": "AISamples\\gitignore",
+              "ToolTip": "C:\\CODE\\AI\\Samples\\AISamples\\AISamples\\gitignore",
+              "RelativeToolTip": "AISamples\\gitignore",
+              "ViewState": "AgIAAG8BAAAAAAAAAAAAAJABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-04T23:37:43.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "settings.json",
               "DocumentMoniker": "C:\\CODE\\AI\\Samples\\AISamples\\AISamples\\settings.json",
               "RelativeDocumentMoniker": "AISamples\\settings.json",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Settings.cs",
               "DocumentMoniker": "C:\\CODE\\AI\\Samples\\AISamples\\AISamples\\Settings.cs",
               "RelativeDocumentMoniker": "AISamples\\Settings.cs",
@@ -66,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ChainOfThought.cs",
               "DocumentMoniker": "C:\\CODE\\AI\\Samples\\AISamples\\AISamples\\SemanticKernel\\ChainOfThought\\ChainOfThought.cs",
               "RelativeDocumentMoniker": "AISamples\\SemanticKernel\\ChainOfThought\\ChainOfThought.cs",
@@ -74,12 +91,11 @@
               "RelativeToolTip": "AISamples\\SemanticKernel\\ChainOfThought\\ChainOfThought.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAiwDEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:40:01.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T16:40:01.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AISamples.csproj",
               "DocumentMoniker": "C:\\CODE\\AI\\Samples\\AISamples\\AISamples\\AISamples.csproj",
               "RelativeDocumentMoniker": "AISamples\\AISamples.csproj",
@@ -92,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CODE\\AI\\Samples\\AISamples\\AISamples\\Program.cs",
               "RelativeDocumentMoniker": "AISamples\\Program.cs",
