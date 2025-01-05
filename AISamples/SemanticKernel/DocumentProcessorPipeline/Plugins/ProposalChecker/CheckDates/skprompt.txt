@@ -1,0 +1,21 @@
+=====
+ {{$input}}
+=====
+
+Check the contents of the text between the tags ===== and =====.
+
+If the contents are an error message, respond with the error message, including the word "Error:" at the beginning.
+
+Otherwise, the text between the tags ===== and ===== will contain 
+a line starting with FolderPath and the rest of the field will contain 
+a description of a timeline for vaccine implementation.
+
+Think carefully about the following question:
+Ignoring the FolderPath line, does the timeline contain dates?
+
+If there are no dates listed, say "Error: No dates listed" .
+
+If the dates are outside of the 2024-2025 range, say "Error: dates out of range".
+
+If there are dates between 2024 and 2025, respond only with the contents of the FolderPath field, nothing more.
+

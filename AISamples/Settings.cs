@@ -23,13 +23,6 @@ namespace AISamples
 
                 var orgId = Environment.GetEnvironmentVariable("OPENAI_ORG_ID");
 
-                if (apiKey == null)
-                {
-                    Console.WriteLine("orgId is null");
-                    throw new Exception("orgId is null");
-                }
-
-
                 return (apiKey, orgId);
             }
             catch (Exception e)
