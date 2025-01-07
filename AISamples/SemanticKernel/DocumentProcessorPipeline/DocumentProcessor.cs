@@ -13,7 +13,6 @@ public static class DocumentProcessor
 
         var builder = Kernel.CreateBuilder();
         builder.AddOpenAIChatCompletion("gpt-4", apiKey, orgId);
-       // builder.Plugins.AddFromPromptDirectory("../../../plugins/ProposalChecker");
         builder.Plugins.AddFromPromptDirectory(ApplicationSettings.GetPluginsDirectory("DocumentProcessorPipeline", "ProposalChecker"));
         builder.Plugins.AddFromType<Helpers>();
         builder.Plugins.AddFromType<ParseWordDocument>();
