@@ -2,7 +2,7 @@ using System.ComponentModel;
 using Microsoft.SemanticKernel;
 using OfficeOpenXml;
 
-namespace AISamples.SemanticKernel.DocumentProcessorPipeline;
+namespace AISamples.Dotnet.SemanticKernel.DocumentProcessorPipeline;
 
 public class CheckSpreadsheet
 {

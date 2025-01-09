@@ -1,7 +1,7 @@
 ﻿using Microsoft.SemanticKernel;
 using Plugins.ProposalChecker;
 
-namespace AISamples.SemanticKernel.DocumentProcessorPipeline;
+namespace AISamples.Dotnet.SemanticKernel.DocumentProcessorPipeline;
 
 public static class DocumentProcessor
 {

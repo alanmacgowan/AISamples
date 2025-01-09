@@ -1,6 +1,6 @@
 ﻿using Microsoft.SemanticKernel;
 
-namespace AISamples.SemanticKernel.ChainOfThought
+namespace AISamples.Dotnet.SemanticKernel.ChainOfThought
 {
     public static class ChainOfThought
     {

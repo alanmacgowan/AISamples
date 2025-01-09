@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using Microsoft.SemanticKernel;
 
-namespace AISamples.SemanticKernel.Planner;
+namespace AISamples.Dotnet.SemanticKernel.Planner;
 
 public class HomeAutomation
 {

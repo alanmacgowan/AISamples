@@ -2,7 +2,7 @@
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 using Microsoft.SemanticKernel.Planning.Handlebars;
 
-namespace AISamples.SemanticKernel.Planner;
+namespace AISamples.Dotnet.SemanticKernel.Planner;
 
 #pragma warning disable SKEXP0060
 
