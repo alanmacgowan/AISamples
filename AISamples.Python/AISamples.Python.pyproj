@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e5ac4393-685f-47e9-bb3c-8be32e11d5ee</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AISamples.Python.py</StartupFile>
+    <StartupFile>simple_agent.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AISamples.Python.py" />
+    <Compile Include="multi_agent.py" />
+    <Compile Include="simple_agent.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
