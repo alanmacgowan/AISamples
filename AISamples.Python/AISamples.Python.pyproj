@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e5ac4393-685f-47e9-bb3c-8be32e11d5ee</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>simple_agent.py</StartupFile>
+    <StartupFile>Autogen\simple_agent.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,10 +22,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AISamples.Python.py" />
-    <Compile Include="multi_agent.py" />
-    <Compile Include="simple_agent.py">
+    <Compile Include="SemanticKernel\simple_agent.py" />
+    <Compile Include="SemanticKernel\multi_agent.py" />
+    <Compile Include="Autogen\simple_agent.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".venv\" />
+    <Folder Include="Autogen\" />
+    <Folder Include="SemanticKernel\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
